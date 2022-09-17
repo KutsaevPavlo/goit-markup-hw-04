@@ -229,6 +229,7 @@ img{
 .team-cards{
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+background-color: var(--hero-titel-color);
 }
 
 .team-name{
@@ -245,11 +246,46 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     text-transform: none;
     margin-top: 10px;
+    padding-bottom: 16px;
     }
 
 .team-list-name{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+
+.social-links{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.social-links-cirl{
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px; 
+    border-radius: 50%;
+      
+}
+
+.social-links-icons{
+
+    fill: #AFB1B8;
+    
+}
+
+.social-links-cirl:hover ,
+.social-links-cirl:focus {
+    fill: var(--hero-titel-color);
+    background-color: var(--primary-acent-color);
+}
+
+.social-links-cirl:hover svg,
+.social-links-cirl:focus svg{
+    fill: var(--hero-titel-color);
+
 }
 
 
