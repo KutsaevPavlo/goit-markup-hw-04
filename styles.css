@@ -363,7 +363,7 @@ justify-content: center;
 .clients-links:focus {
     fill: var(--primary-acent-color);
     border: 1px solid var(--primary-acent-color);
-    /* background-color: var(--primary-acent-color); */
+    
 }
 
 .clients-links:hover svg,
@@ -401,6 +401,44 @@ justify-content: center;
 .footer-nav .item +.item{
     margin-top: 9px;
 }
+
+.footer-logo{
+    color: var(--hero-titel-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.social-links-footer{
+    margin-left: 70px;
+}
+
+
+.social-links-footer .social-links-cirl {
+ background: rgba(255, 255, 255, 0.1);
+
+}
+
+.social-links-footer .social-links-icons
+{
+   fill: var(--hero-titel-color);   
+}
+
+.social-links-footer .social-links-cirl:hover,
+.social-links-footer .social-links-cirl:focus {
+    background: var(--primary-acent-color);
+    
+   }
+
 /* Portfolio */
 
 /* Filter portfolio */
