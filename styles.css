@@ -171,6 +171,18 @@ img{
   }
 
 /* Section features */
+.featers-items{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+}
+.features-links-icons{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
 
 .features-list,
 .list-work,
@@ -185,6 +197,7 @@ img{
 }
 .titel-features{
     margin-bottom: 10px;
+    margin-top: 30px
 }
 .section-titel{
     color: var(--section-titel-color);
@@ -273,6 +286,10 @@ background-color: var(--hero-titel-color);
 .social-links-icons{
 
     fill: #AFB1B8;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
     
 }
 
