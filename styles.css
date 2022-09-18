@@ -112,6 +112,7 @@ img{
 .auth-nav{
     display: flex;
     margin-left: auto;
+    
 } 
 .auth-nav .item +.item{
     margin-left: 50px;
@@ -127,9 +128,39 @@ img{
 
 }
 .auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .link:focus,
+.auth-nav .link:hover svg,
+.auth-nav .link:focus svg {
     color: var(--primary-acent-color);
+    fill: var(--primary-acent-color);
 }
+
+
+/* SVG mail + tel */
+
+.mail-icons{
+    fill: #AFB1B8;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    
+}
+
+.smartphone-icons{
+    fill: #AFB1B8;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    
+}
+
+
+.link{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
 /* Hero */
 .hero{
     max-width: 1600px;
